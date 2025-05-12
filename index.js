@@ -1,4 +1,1 @@
-export const logoMain = new URL(
-    './assets/logo-main.svg',
-    import.meta.url
-).href;
+export { default as logoMain } from './assets/logo-main.svg';
