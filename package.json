@@ -12,6 +12,12 @@
   "types": "index.d.ts",
   "files": [
     "index.js",
-    "./assets/"
-  ]
+    "dist/"
+  ],
+  "scripts": {
+    "build:sprites": "node scripts/build-sprites.js"
+  },
+  "devDependencies": {
+    "svg-sprite": "^2.0.4"
+  }
 }
